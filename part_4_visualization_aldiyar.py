@@ -51,7 +51,7 @@ if __name__ == "__main__":
     simulation = InterventionSimulation(network, beta=0.3, gamma=0.1)
     simulation.reset(initial_infected=3)
     
-    simulation.vaccinate_targeted(coverage=0.1) 
+    simulation.vaccinate_targeted(coverage=0.2) 
     
     visualizer = EpidemicVisualizer(network, simulation)
     visualizer.run()
