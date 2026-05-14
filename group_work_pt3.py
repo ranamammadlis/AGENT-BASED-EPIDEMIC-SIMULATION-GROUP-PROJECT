@@ -44,8 +44,8 @@ sims = 100
 
 figure, axes = plt.subplots(2,3, figsize=(20,10))
 
-G_BA = generate_network("BA", n=N, m=2, p=0.02)
-G_ER = generate_network("ER", n=N, m=2, p=0.03)
+G_BA = generate_network("BA", n=N, m=2)
+G_ER = generate_network("ER", n=N, p=0.03)
 
 beta_values = np.linspace(0.01, 0.5, 25)
 gamma_values = np.linspace(0.01, 0.5, 25)
