@@ -77,12 +77,19 @@ Real-time epidemic visualization included.
 
 #  File Structure
 
-- networks.py
-- simulation.py
-- main_analysis.py
-- group_work_pt3.py
-- part_4_visualization_aldiyar.py
-- quick_test.py
+├── img/
+│   │   1_network_comparison.png
+│   │   2_hub_identification.png
+│   │   3_baseline_outbreak.png
+│   │   4_vaccination_comparison.png
+│   └── 5_single_epidemic_scenarios.png
+│   main_analysis.py
+│   monte_carlo.py
+│   networks.py
+│   quick_test.py
+│   simulation.py
+│   visualization.py
+└── README.md
 
 ---
 
