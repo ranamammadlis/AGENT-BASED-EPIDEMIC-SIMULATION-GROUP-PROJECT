@@ -35,7 +35,7 @@ def analyze_network_structures():
     ax2.grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('1_network_comparison.png', dpi=300, bbox_inches='tight')
+    plt.savefig('img/1_network_comparison.png', dpi=300, bbox_inches='tight')
     print("\nSaved: 1_network_comparison.png")
 
 def analyze_hub_identification():
@@ -62,7 +62,7 @@ def analyze_hub_identification():
     ax.grid(True, alpha=0.3, axis='y')
     
     plt.tight_layout()
-    plt.savefig('2_hub_identification.png', dpi=300, bbox_inches='tight')
+    plt.savefig('img/2_hub_identification.png', dpi=300, bbox_inches='tight')
     print("\nSaved: 2_hub_identification.png")
 
 def analyze_baseline_outbreak():
@@ -88,7 +88,7 @@ def analyze_baseline_outbreak():
     ax.grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('3_baseline_outbreak.png', dpi=300, bbox_inches='tight')
+    plt.savefig('img/3_baseline_outbreak.png', dpi=300, bbox_inches='tight')
     print("\nSaved: 3_baseline_outbreak.png")
 
 def analyze_vaccination_strategies():
@@ -151,7 +151,7 @@ def analyze_vaccination_strategies():
     ax2.grid(True, alpha=0.3, axis='y')
     
     plt.tight_layout()
-    plt.savefig('4_vaccination_comparison.png', dpi=300, bbox_inches='tight')
+    plt.savefig('img/4_vaccination_comparison.png', dpi=300, bbox_inches='tight')
     print("\nSaved: 4_vaccination_comparison.png")
 
 def analyze_single_epidemic():
@@ -202,7 +202,7 @@ def analyze_single_epidemic():
         ax.grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('5_single_epidemic_scenarios.png', dpi=300, bbox_inches='tight')
+    plt.savefig('img/5_single_epidemic_scenarios.png', dpi=300, bbox_inches='tight')
     print("\nSaved: 5_single_epidemic_scenarios.png")
 
 def generate_report():
