@@ -1,3 +1,7 @@
+# To run this visualization, ensure that 'networks.py' and 'simulation.py' 
+# are in the same directory.
+
+
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import networkx as nx
