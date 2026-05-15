@@ -38,15 +38,6 @@ class EpidemicVisualizer:
         )
         plt.show()
 
-# if __name__ == "__main__":
-#     network = generate_network('BA', n=100, m=2) 
-    
-#     simulation = SIRSimulation(network, beta=0.3, gamma=0.1)
-#     simulation.reset(initial_infected=3)
-    
-#     visualizer = EpidemicVisualizer(network, simulation)
-#     visualizer.run()
-
 if __name__ == "__main__":
     network = generate_network('BA', n=100, m=2) 
     
@@ -55,7 +46,7 @@ if __name__ == "__main__":
     simulation = InterventionSimulation(network, beta=0.3, gamma=0.1)
     simulation.reset(initial_infected=3)
     
-    simulation.vaccinate_targeted(coverage=0.2) 
+    simulation.vaccinate_targeted(coverage=0.2) #comment this if you want to test it without coverage
     
     visualizer = EpidemicVisualizer(network, simulation)
     visualizer.run()
