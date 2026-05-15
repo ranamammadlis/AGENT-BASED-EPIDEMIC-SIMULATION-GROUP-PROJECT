@@ -1,0 +1,40 @@
+======================================================================
+AGENT-BASED EPIDEMIC SIMULATION PROJECT
+Part 2: Simulation Engine (The Logic Builder)
+======================================================================
+
+GROUP MEMBERS:
+- Rana Mammadli - JFKZ5K
+- Edina Kovacs
+- Aldiyar Yelbossyn
+- Quonzi Luo - H9YM9N
+
+IMPLEMENTATION:
+----------------------------------------------------------------------
+Files:
+  networks.py     - Network generation (ER & BA)
+  simulation.py   - SIR simulation engine
+  main_analysis.py - Complete analysis pipeline
+
+Core Functions:
+  generate_network() - Creates BA or ER networks
+  get_hubs()         - Identifies super-spreaders
+  SIRSimulation      - Basic S→I→R dynamics
+  InterventionSimulation - Vaccination strategies
+
+Parameters:
+  Network size: n=500
+  BA parameter: m=2
+  ER parameter: p=0.008
+  Infection rate: β=0.3
+  Recovery rate: γ=0.1
+  R₀ = β/γ = 3.0
+
+KEY FINDINGS:
+----------------------------------------------------------------------
+1. BA networks exhibit super-spreader hubs
+2. Targeted vaccination 2x more efficient than random
+3. Hub-based strategy breaks transmission chains
+4. Network topology critical for intervention design
+
+======================================================================

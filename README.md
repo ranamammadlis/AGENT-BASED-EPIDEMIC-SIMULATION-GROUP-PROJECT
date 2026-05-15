@@ -89,7 +89,7 @@ Real-time epidemic visualization included.
 # How to Run
 
 ## Install
-pip install networkx numpy matplotlib
+pip install -r requirements.txt
 
 ## Full analysis
 python main_analysis.py
