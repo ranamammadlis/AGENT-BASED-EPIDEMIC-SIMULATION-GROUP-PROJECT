@@ -2,6 +2,8 @@ import numpy as np
 from matplotlib.colors import Normalize
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
+from networks import generate_network
+from simulation import InterventionSimulation
 
 def monte_carlo_sim(Graph, sims, t, beta_values, gamma_values, vaccination = None, coverage=None):
 
