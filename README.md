@@ -102,7 +102,7 @@ pip install -r requirements.txt
 python main_analysis.py
 
 ## Visualization
-python part_4_visualization_aldiyar.py
+python visualization.py
 
 ---
 
